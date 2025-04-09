@@ -8,6 +8,14 @@ One function per operation, in order.
 
 import math
 
+def square_root(a):
+    math.sqrt(a)
+    if a < 0:
+        raise ValueError # square root
+
+def hypotenuse(a, b):
+    math.hypot(a, b) # hypotenuse
+
 def add(a, b): 
     return a + b
 
